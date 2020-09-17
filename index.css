@@ -1,0 +1,223 @@
+@font-face {
+    font-family: "myfont";
+    src: url("./Fonts/Montserrat-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: myfont;
+    /* border: 1px solid blue; */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 3vh;
+}
+
+h3 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 1vh;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    /* margin: 0 20vw 0 15px ; */
+}
+
+label {
+    color: #4F4F4F;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+input {
+    font-size: 0.9rem;
+    color: #828282;
+    margin: 0.5rem 0;
+    width: 400px;
+    height: 30px;
+    padding-left: 37px;
+    /* padding: 20px 30px; */
+    border: 1px solid #828282;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+    width: 150px;
+    height: 30px;
+    padding-left: 37px;
+    border: 1px solid #828282;
+    border-radius: 5px;
+}
+
+.form {
+    margin-top: 5vh;
+}
+
+i {
+    opacity: 0.5;
+    position: absolute;
+    top: 2.5vh;
+    left: 1vw;
+}
+
+.icon-position {
+    position: relative;
+    /* border: 2px solid red; */
+}
+
+.country-form {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.post-code-select {
+    width: 255px;
+    margin-left: 10px;
+}
+
+#post-code {
+    width: 225px;
+    height: 30px;
+    padding-left: 37px;
+    border: 1px solid #828282;
+    border-radius: 5px;
+}
+
+#checkbox {
+    width: 15px;
+    height: auto;
+    margin-right: 15px;
+}
+
+
+form {
+    position: relative;
+    margin-left: 150px;
+    padding-bottom: 50px;
+}
+
+#continue {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    color: white;
+    background-color: #f2994a;
+    font-size: 0.85rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    width: 75px;
+    height: 40px;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    margin-right: 18px;
+}
+
+.shopping {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    /* border: 5px solid blue; */
+    height: auto;
+    width: 350px;
+    border-radius: 10px;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+
+.vintage {
+    display: flex;
+    margin: 20px;
+
+    /* flex-direction: column; */
+}
+
+.shoes {
+    display: flex;
+    margin: 20px;
+}
+
+.vintage-money {
+    display: flex;
+    flex-direction: column;
+}
+
+.shoes-money {
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    color: #4e5150;
+    margin-bottom: 5px;
+}
+
+.plusandminus {
+    margin: 20px;
+
+}
+
+.shipping {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #D3D3D3;
+    padding-bottom: 10px;
+    margin: 0 20px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #D3D3D3;
+    padding-bottom: 10px;
+    margin: 0 20px;
+}
+
+.plusandminus {
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 7px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.minus {
+    border: none;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 1px 10px;
+    font-weight: bolder;
+    font-size: 1.25em;
+
+}
+
+.plus {
+    border: none;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 1px 10px;
+    font-weight: bolder;
+    font-size: 1.25em;
+}
+
+.minus-plus {
+    margin: 0 10px;
+}
